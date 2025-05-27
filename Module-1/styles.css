@@ -1,0 +1,108 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation styling */
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Welcome Banner */
+#welcomeBanner {
+  background-color: #cce5ff;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+#welcomeBanner span {
+  color: red;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h2 {
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+/* Image Gallery */
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.img-gallery img {
+  max-width: 200px;
+  border: 2px solid #0077cc;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Video Gallery */
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.video-gallery video {
+  max-width: 320px;
+  border: 2px solid #0077cc;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Footer styling */
+footer {
+  border-top: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  color: #777;
+  background: #f1f1f1;
+  margin-top: 40px;
+  border-radius: 0 0 6px 6px;
+}
